@@ -1,0 +1,454 @@
+Rule Longitud_Rosca_Rule
+if LongitudNominal == 2.50 {
+   l_min = 2.30mm
+   l_max = 2.70mm
+}
+else if LongitudNominal == 3.00 {
+   l_min = 2.80mm
+   l_max = 3.20mm
+}
+else if LongitudNominal == 4.00 {
+   l_min = 3.76mm
+   l_max = 4.24mm
+}
+else if LongitudNominal == 5.00 {
+   l_min = 4.76mm
+   l_max = 5.24mm
+}
+else if LongitudNominal == 6.00 {
+   l_min = 5.76mm
+   l_max = 6.24mm
+}
+else if LongitudNominal == 8.00 {
+   l_min = 7.71mm
+   l_max = 8.29mm
+}
+else if LongitudNominal == 10.00 {
+   l_min = 9.71mm
+   l_max = 10.29mm
+}
+else if LongitudNominal == 12.00 {
+   l_min = 11.65mm
+   l_max = 12.35mm
+}
+else if LongitudNominal == 16.00 {
+   l_min = 15.65mm
+   l_max = 16.35mm
+}
+else if LongitudNominal == 20.00 {
+   l_min = 19.58mm
+   l_max = 20.42mm
+   M2_ls_min = 2.00mm
+   M2_lg_max = 4.00mm
+}
+else if LongitudNominal == 25.00 {
+   l_min = 24.58mm
+   l_max = 25.42mm
+   M2_5_ls_min = 5.75mm
+   M2_5_lg_max = 8.00mm
+   M3_ls_min = 4.50mm
+   M3_lg_max = 7.00mm
+}
+else if LongitudNominal == 30.00 {
+   l_min = 29.58mm
+   l_max = 30.42mm
+   M3_ls_min = 9.50mm
+   M3_lg_max = 12.00mm
+   M4_ls_min = 6.50mm
+   M4_lg_max = 10.00mm
+   M5_ls_min = 4.00mm
+   M5_lg_max = 8.00mm
+}
+else if LongitudNominal == 35.00 {
+   l_min = 34.50mm
+   l_max = 35.50mm
+   M4_ls_min = 11.50mm
+   M4_lg_max = 15.00mm
+   M5_ls_min = 9.00mm
+   M5_lg_max = 13.00mm
+   M6_ls_min = 6.00mm
+   M6_lg_max = 11.00mm
+}
+else if LongitudNominal == 40.00 {
+   l_min = 39.50mm
+   l_max = 40.50mm
+   M4_ls_min = 16.50mm
+   M4_lg_max = 20.00mm
+   M5_ls_min = 14.00mm
+   M5_lg_max = 18.00mm
+   M6_ls_min = 11.00mm
+   M6_lg_max = 16.00mm
+   M8_ls_min = 5.75mm
+   M8_lg_max = 12.00mm
+}
+else if LongitudNominal == 45.00 {
+   l_min = 44.50mm
+   l_max = 45.50mm
+   M5_ls_min = 19.00mm
+   M5_lg_max = 23.00mm
+   M6_ls_min = 16.00mm
+   M6_lg_max = 21.00mm
+   M8_ls_min = 10.75mm
+   M8_lg_max = 17.00mm
+   M10_ls_min = 5.50mm
+   M10_lg_max = 13.00mm
+}
+else if LongitudNominal == 50.00 {
+   l_min = 49.50mm
+   l_max = 50.50mm
+   M5_ls_min = 24.00mm
+   M5_lg_max = 28.00mm
+   M6_ls_min = 21.00mm
+   M6_lg_max = 26.00mm
+   M8_ls_min = 15.75mm
+   M8_lg_max = 22.00mm
+   M10_ls_min = 10.50mm
+   M10_lg_max = 18.00mm
+}
+else if LongitudNominal == 55.00 {
+   l_min = 54.40mm
+   l_max = 55.60mm
+   M6_ls_min = 26.00mm
+   M6_lg_max = 31.00mm
+   M8_ls_min = 20.75mm
+   M8_lg_max = 27.00mm
+   M10_ls_min = 15.50mm
+   M10_lg_max = 23.00mm
+   M12_ls_min = 10.25mm
+   M12_lg_max = 19.00mm
+}
+else if LongitudNominal == 60.00 {
+   l_min = 59.40mm
+   l_max = 60.60mm
+   M6_ls_min = 31.00mm
+   M6_lg_max = 36.00mm
+   M8_ls_min = 25.75mm
+   M8_lg_max = 32.00mm
+   M10_ls_min = 20.50mm
+   M10_lg_max = 28.00mm
+   M12_ls_min = 15.25mm
+   M12_lg_max = 24.00mm
+   M14_ls_min = 10.00mm
+   M14_lg_max = 20.00mm
+}
+else if LongitudNominal == 65.00 {
+   l_min = 64.40mm
+   l_max = 65.60mm
+   M8_ls_min = 30.75mm
+   M8_lg_max = 37.00mm
+   M10_ls_min = 25.50mm
+   M10_lg_max = 33.00mm
+   M12_ls_min = 20.25mm
+   M12_lg_max = 29.00mm
+   M14_ls_min = 15.00mm
+   M14_lg_max = 25.00mm
+   M16_ls_min = 11.00mm
+   M16_lg_max = 21.00mm
+}
+else if LongitudNominal == 70.00 {
+   l_min = 69.40mm
+   l_max = 70.60mm
+   M8_ls_min = 35.75mm
+   M8_lg_max = 42.00mm
+   M10_ls_min = 30.50mm
+   M10_lg_max = 38.00mm
+   M12_ls_min = 25.25mm
+   M12_lg_max = 34.00mm
+   M14_ls_min = 20.00mm
+   M14_lg_max = 30.00mm
+   M16_ls_min = 16.00mm
+   M16_lg_max = 26.00mm
+}
+else if LongitudNominal == 80.00 {
+   l_min = 79.40mm
+   l_max = 80.60mm
+   M8_ls_min = 45.75mm
+   M8_lg_max = 52.00mm
+   M10_ls_min = 40.50mm
+   M10_lg_max = 48.00mm
+   M12_ls_min = 35.25mm
+   M12_lg_max = 44.00mm
+   M14_ls_min = 30.00mm
+   M14_lg_max = 40.00mm
+   M16_ls_min = 26.00mm
+   M16_lg_max = 36.00mm
+   M20_ls_min = 15.50mm
+   M20_lg_max = 28.00mm
+}
+else if LongitudNominal == 90.00 {
+   l_min = 89.30mm
+   l_max = 90.70mm
+   M10_ls_min = 50.50mm
+   M10_lg_max = 58.00mm
+   M12_ls_min = 45.25mm
+   M12_lg_max = 54.00mm
+   M14_ls_min = 40.00mm
+   M14_lg_max = 50.00mm
+   M16_ls_min = 36.00mm
+   M16_lg_max = 46.00mm
+   M20_ls_min = 25.50mm
+   M20_lg_max = 38.00mm
+   M24_ls_min = 15.00mm
+   M24_lg_max = 30.00mm
+}
+else if LongitudNominal == 100.00 {
+   l_min = 99.30mm
+   l_max = 100.70mm
+   M10_ls_min = 60.50mm
+   M10_lg_max = 68.00mm
+   M12_ls_min = 55.25mm
+   M12_lg_max = 64.00mm
+   M14_ls_min = 50.00mm
+   M14_lg_max = 60.00mm
+   M16_ls_min = 46.00mm
+   M16_lg_max = 56.00mm
+   M20_ls_min = 35.50mm
+   M20_lg_max = 48.00mm
+   M24_ls_min = 25.00mm
+   M24_lg_max = 40.00mm
+}
+else if LongitudNominal == 110.00 {
+   l_min = 109.30mm
+   l_max = 110.70mm
+   M12_ls_min = 65.25mm
+   M12_lg_max = 74.00mm
+   M14_ls_min = 60.00mm
+   M14_lg_max = 70.00mm
+   M16_ls_min = 56.00mm
+   M16_lg_max = 66.00mm
+   M20_ls_min = 45.50mm
+   M20_lg_max = 58.00mm
+   M24_ls_min = 35.00mm
+   M24_lg_max = 50.00mm
+   M30_ls_min = 20.50mm
+   M30_lg_max = 38.00mm
+}
+else if LongitudNominal == 120.00 {
+   l_min = 119.30mm
+   l_max = 120.70mm
+   M12_ls_min = 75.25mm
+   M12_lg_max = 84.00mm
+   M14_ls_min = 70.00mm
+   M14_lg_max = 80.00mm
+   M16_ls_min = 66.00mm
+   M16_lg_max = 76.00mm
+   M20_ls_min = 55.50mm
+   M20_lg_max = 68.00mm
+   M24_ls_min = 45.00mm
+   M24_lg_max = 60.00mm
+   M30_ls_min = 30.50mm
+   M30_lg_max = 48.00mm
+   M36_ls_min = 16.00mm
+   M36_lg_max = 36.00mm
+}
+else if LongitudNominal == 130.00 {
+   l_min = 129.20mm
+   l_max = 130.80mm
+   M14_ls_min = 80.00mm
+   M14_lg_max = 90.00mm
+   M16_ls_min = 76.00mm
+   M16_lg_max = 86.00mm
+   M20_ls_min = 65.50mm
+   M20_lg_max = 78.00mm
+   M24_ls_min = 55.00mm
+   M24_lg_max = 70.00mm
+   M30_ls_min = 40.50mm
+   M30_lg_max = 58.00mm
+   M36_ls_min = 26.00mm
+   M36_lg_max = 46.00mm
+}
+else if LongitudNominal == 140.00 {
+   l_min = 139.20mm
+   l_max = 140.80mm
+   M14_ls_min = 90.00mm
+   M14_lg_max = 100.00mm
+   M16_ls_min = 86.00mm
+   M16_lg_max = 96.00mm
+   M20_ls_min = 75.50mm
+   M20_lg_max = 88.00mm
+   M24_ls_min = 65.00mm
+   M24_lg_max = 80.00mm
+   M30_ls_min = 50.50mm
+   M30_lg_max = 68.00mm
+   M36_ls_min = 36.00mm
+   M36_lg_max = 56.00mm
+   M42_ls_min = 21.50mm
+   M42_lg_max = 44.00mm
+}
+else if LongitudNominal == 150.00 {
+   l_min = 149.20mm
+   l_max = 150.80mm
+   M16_ls_min = 96.00mm
+   M16_lg_max = 106.00mm
+   M20_ls_min = 85.50mm
+   M20_lg_max = 98.00mm
+   M24_ls_min = 75.00mm
+   M24_lg_max = 90.00mm
+   M30_ls_min = 60.50mm
+   M30_lg_max = 78.00mm
+   M36_ls_min = 46.00mm
+   M36_lg_max = 66.00mm
+   M42_ls_min = 31.50mm
+   M42_lg_max = 54.00mm
+}
+else if LongitudNominal == 160.00 {
+   l_min = 159.20mm
+   l_max = 160.80mm
+   M16_ls_min = 106.00mm
+   M16_lg_max = 116.00mm
+   M20_ls_min = 95.50mm
+   M20_lg_max = 108.00mm
+   M24_ls_min = 85.00mm
+   M24_lg_max = 100.00mm
+   M30_ls_min = 70.50mm
+   M30_lg_max = 88.00mm
+   M36_ls_min = 56.00mm
+   M36_lg_max = 76.00mm
+   M42_ls_min = 41.50mm
+   M42_lg_max = 64.00mm
+   M48_ls_min = 27.00mm
+   M48_lg_max = 52.00mm
+}
+else if LongitudNominal == 180.00 {
+   l_min = 179.20mm
+   l_max = 180.80mm
+   M20_ls_min = 115.50mm
+   M20_lg_max = 128.00mm
+   M24_ls_min = 105.00mm
+   M24_lg_max = 120.00mm
+   M30_ls_min = 90.50mm
+   M30_lg_max = 108.00mm
+   M36_ls_min = 76.00mm
+   M36_lg_max = 96.00mm
+   M42_ls_min = 61.50mm
+   M42_lg_max = 84.00mm
+   M48_ls_min = 47.00mm
+   M48_lg_max = 72.00mm
+   M56_ls_min = 28.50mm
+   M56_lg_max = 56.00mm
+}
+else if LongitudNominal == 200.00 {
+   l_min = 199.07mm
+   l_max = 200.92mm
+   M20_ls_min = 135.50mm
+   M20_lg_max = 148.00mm
+   M24_ls_min = 125.00mm
+   M24_lg_max = 140.00mm
+   M30_ls_min = 110.50mm
+   M30_lg_max = 128.00mm
+   M36_ls_min = 96.00mm
+   M36_lg_max = 116.00mm
+   M42_ls_min = 81.50mm
+   M42_lg_max = 104.00mm
+   M48_ls_min = 67.00mm
+   M48_lg_max = 92.00mm
+   M56_ls_min = 48.50mm
+   M56_lg_max = 76.00mm
+   M64_ls_min = 30.00mm
+   M64_lg_max = 60.00mm
+}
+else if LongitudNominal == 220.00 {
+   l_min = 219.07mm
+   l_max = 220.92mm
+   M42_ls_min = 101.50mm
+   M42_lg_max = 124.00mm
+   M48_ls_min = 87.00mm
+   M48_lg_max = 112.00mm
+   M56_ls_min = 68.50mm
+   M56_lg_max = 96.00mm
+   M64_ls_min = 50.00mm
+   M64_lg_max = 80.00mm
+}
+else if LongitudNominal == 240.00 {
+   l_min = 239.07mm
+   l_max = 240.92mm
+   M42_ls_min = 121.50mm
+   M42_lg_max = 155.00mm
+   M48_ls_min = 107.00mm
+   M48_lg_max = 132.00mm
+   M56_ls_min = 88.50mm
+   M56_lg_max = 116.00mm
+   M64_ls_min = 70.00mm
+   M64_lg_max = 100.00mm
+}
+else if LongitudNominal == 260.00 {
+   l_min = 258.95mm
+   l_max = 261.05mm
+   M42_ls_min = 141.50mm
+   M42_lg_max = 164.00mm
+   M48_ls_min = 127.00mm
+   M48_lg_max = 152.00mm
+   M56_ls_min = 108.50mm
+   M56_lg_max = 136.00mm
+   M64_ls_min = 90.00mm
+   M64_lg_max = 120.00mm
+}
+else if LongitudNominal == 280.00 {
+   l_min = 278.95mm
+   l_max = 281.05mm
+   M42_ls_min = 161.50mm
+   M42_lg_max = 184.00mm
+   M48_ls_min = 147.00mm
+   M48_lg_max = 172.00mm
+   M56_ls_min = 128.50mm
+   M56_lg_max = 156.00mm
+   M64_ls_min = 110.00mm
+   M64_lg_max = 140.00mm
+}
+else if LongitudNominal == 300.00 {
+   l_min = 298.95mm
+   l_max = 301.05mm
+   M42_ls_min = 181.50mm
+   M42_lg_max = 204.00mm
+   M48_ls_min = 167.00mm
+   M48_lg_max = 192.00mm
+   M56_ls_min = 148.50mm
+   M56_lg_max = 176.00mm
+   M64_ls_min = 130.00mm
+   M64_lg_max = 160.00mm
+}
+else {
+   // Valores por defecto cuando no hay coincidencia
+   l_min = 0.00mm
+   l_max = 0.00mm
+   M1_6_ls_min = 0.00mm
+   M1_6_lg_max = 0.00mm
+   M2_ls_min = 0.00mm
+   M2_lg_max = 0.00mm
+   M2_5_ls_min = 0.00mm
+   M2_5_lg_max = 0.00mm
+   M3_ls_min = 0.00mm
+   M3_lg_max = 0.00mm
+   M4_ls_min = 0.00mm
+   M4_lg_max = 0.00mm
+   M5_ls_min = 0.00mm
+   M5_lg_max = 0.00mm
+   M6_ls_min = 0.00mm
+   M6_lg_max = 0.00mm
+   M8_ls_min = 0.00mm
+   M8_lg_max = 0.00mm
+   M10_ls_min = 0.00mm
+   M10_lg_max = 0.00mm
+   M12_ls_min = 0.00mm
+   M12_lg_max = 0.00mm
+   M14_ls_min = 0.00mm
+   M14_lg_max = 0.00mm
+   M16_ls_min = 0.00mm
+   M16_lg_max = 0.00mm
+   M20_ls_min = 0.00mm
+   M20_lg_max = 0.00mm
+   M24_ls_min = 0.00mm
+   M24_lg_max = 0.00mm
+   M30_ls_min = 0.00mm
+   M30_lg_max = 0.00mm
+   M36_ls_min = 0.00mm
+   M36_lg_max = 0.00mm
+   M42_ls_min = 0.00mm
+   M42_lg_max = 0.00mm
+   M48_ls_min = 0.00mm
+   M48_lg_max = 0.00mm
+   M56_ls_min = 0.00mm
+   M56_lg_max = 0.00mm
+   M64_ls_min = 0.00mm
+   M64_lg_max = 0.00mm
+}

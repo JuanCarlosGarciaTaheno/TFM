@@ -1,0 +1,320 @@
+Rule Arandela_Rule
+if Metrica_Seleccionada == 1.60mm {
+   `Clearance Hole d1 (min)` = 1.700mm
+   `Clearance Hole d1 (max)` = 1.840mm
+   `Outside d2 (nom)` = 4.000mm
+   `d2 (min)` = 3.700mm
+   `Thickness h (nom)` = 0.300mm
+   `h (max)` = 0.350mm
+   `h (min)` = 0.250mm
+   `d_int_medio` = 1.770mm
+   `d_ext_Medio` = 3.850mm
+}
+else if Metrica_Seleccionada == 2.00mm {
+   `Clearance Hole d1 (min)` = 2.200mm
+   `Clearance Hole d1 (max)` = 2.340mm
+   `Outside d2 (nom)` = 5.000mm
+   `d2 (min)` = 4.700mm
+   `Thickness h (nom)` = 0.300mm
+   `h (max)` = 0.350mm
+   `h (min)` = 0.250mm
+   `d_int_medio` = 2.270mm
+   `d_ext_Medio` = 4.850mm
+}
+else if Metrica_Seleccionada == 2.50mm {
+   `Clearance Hole d1 (min)` = 2.700mm
+   `Clearance Hole d1 (max)` = 2.840mm
+   `Outside d2 (nom)` = 6.000mm
+   `d2 (min)` = 5.700mm
+   `Thickness h (nom)` = 0.500mm
+   `h (max)` = 0.550mm
+   `h (min)` = 0.450mm
+   `d_int_medio` = 2.770mm
+   `d_ext_Medio` = 5.850mm
+}
+else if Metrica_Seleccionada == 3.00mm {
+   `Clearance Hole d1 (min)` = 3.200mm
+   `Clearance Hole d1 (max)` = 3.380mm
+   `Outside d2 (nom)` = 7.000mm
+   `d2 (min)` = 6.640mm
+   `Thickness h (nom)` = 0.500mm
+   `h (max)` = 0.550mm
+   `h (min)` = 0.450mm
+   `d_int_medio` = 3.290mm
+   `d_ext_Medio` = 6.820mm
+}
+else if Metrica_Seleccionada == 4.00mm {
+   `Clearance Hole d1 (min)` = 4.300mm
+   `Clearance Hole d1 (max)` = 4.480mm
+   `Outside d2 (nom)` = 9.000mm
+   `d2 (min)` = 8.640mm
+   `Thickness h (nom)` = 0.800mm
+   `h (max)` = 0.900mm
+   `h (min)` = 0.700mm
+   `d_int_medio` = 4.390mm
+   `d_ext_Medio` = 8.820mm
+}
+else if Metrica_Seleccionada == 5.00mm {
+   `Clearance Hole d1 (min)` = 5.300mm
+   `Clearance Hole d1 (max)` = 5.480mm
+   `Outside d2 (nom)` = 10.000mm
+   `d2 (min)` = 9.640mm
+   `Thickness h (nom)` = 1.000mm
+   `h (max)` = 1.100mm
+   `h (min)` = 0.900mm
+   `d_int_medio` = 5.390mm
+   `d_ext_Medio` = 9.820mm
+}
+else if Metrica_Seleccionada == 6.00mm {
+   `Clearance Hole d1 (min)` = 6.400mm
+   `Clearance Hole d1 (max)` = 6.620mm
+   `Outside d2 (nom)` = 12.000mm
+   `d2 (min)` = 11.570mm
+   `Thickness h (nom)` = 1.600mm
+   `h (max)` = 1.800mm
+   `h (min)` = 1.400mm
+   `d_int_medio` = 6.510mm
+   `d_ext_Medio` = 11.785mm
+}
+else if Metrica_Seleccionada == 8.00mm {
+   `Clearance Hole d1 (min)` = 8.400mm
+   `Clearance Hole d1 (max)` = 8.620mm
+   `Outside d2 (nom)` = 16.000mm
+   `d2 (min)` = 15.570mm
+   `Thickness h (nom)` = 1.600mm
+   `h (max)` = 1.800mm
+   `h (min)` = 1.400mm
+   `d_int_medio` = 8.510mm
+   `d_ext_Medio` = 15.785mm
+}
+else if Metrica_Seleccionada == 10.00mm {
+   `Clearance Hole d1 (min)` = 10.500mm
+   `Clearance Hole d1 (max)` = 10.770mm
+   `Outside d2 (nom)` = 20.000mm
+   `d2 (min)` = 19.480mm
+   `Thickness h (nom)` = 2.000mm
+   `h (max)` = 2.200mm
+   `h (min)` = 1.800mm
+   `d_int_medio` = 10.635mm
+   `d_ext_Medio` = 19.740mm
+}
+else if Metrica_Seleccionada == 12.00mm {
+   `Clearance Hole d1 (min)` = 13.000mm
+   `Clearance Hole d1 (max)` = 13.270mm
+   `Outside d2 (nom)` = 24.000mm
+   `d2 (min)` = 23.480mm
+   `Thickness h (nom)` = 2.500mm
+   `h (max)` = 2.700mm
+   `h (min)` = 2.300mm
+   `d_int_medio` = 13.135mm
+   `d_ext_Medio` = 23.740mm
+}
+else if Metrica_Seleccionada == 16.00mm {
+   `Clearance Hole d1 (min)` = 17.000mm
+   `Clearance Hole d1 (max)` = 17.270mm
+   `Outside d2 (nom)` = 30.000mm
+   `d2 (min)` = 29.480mm
+   `Thickness h (nom)` = 3.000mm
+   `h (max)` = 3.300mm
+   `h (min)` = 2.700mm
+   `d_int_medio` = 17.135mm
+   `d_ext_Medio` = 29.740mm
+}
+else if Metrica_Seleccionada == 20.00mm {
+   `Clearance Hole d1 (min)` = 21.000mm
+   `Clearance Hole d1 (max)` = 21.330mm
+   `Outside d2 (nom)` = 37.000mm
+   `d2 (min)` = 36.380mm
+   `Thickness h (nom)` = 3.000mm
+   `h (max)` = 3.300mm
+   `h (min)` = 2.700mm
+   `d_int_medio` = 21.165mm
+   `d_ext_Medio` = 36.690mm
+}
+else if Metrica_Seleccionada == 24.00mm {
+   `Clearance Hole d1 (min)` = 25.000mm
+   `Clearance Hole d1 (max)` = 25.330mm
+   `Outside d2 (nom)` = 44.000mm
+   `d2 (min)` = 43.380mm
+   `Thickness h (nom)` = 4.000mm
+   `h (max)` = 4.300mm
+   `h (min)` = 3.700mm
+   `d_int_medio` = 25.165mm
+   `d_ext_Medio` = 43.690mm
+}
+else if Metrica_Seleccionada == 30.00mm {
+   `Clearance Hole d1 (min)` = 31.000mm
+   `Clearance Hole d1 (max)` = 31.390mm
+   `Outside d2 (nom)` = 56.000mm
+   `d2 (min)` = 55.260mm
+   `Thickness h (nom)` = 4.000mm
+   `h (max)` = 4.300mm
+   `h (min)` = 3.700mm
+   `d_int_medio` = 31.195mm
+   `d_ext_Medio` = 55.630mm
+}
+else if Metrica_Seleccionada == 36.00mm {
+   `Clearance Hole d1 (min)` = 37.000mm
+   `Clearance Hole d1 (max)` = 37.620mm
+   `Outside d2 (nom)` = 66.000mm
+   `d2 (min)` = 64.800mm
+   `Thickness h (nom)` = 5.000mm
+   `h (max)` = 5.600mm
+   `h (min)` = 4.400mm
+   `d_int_medio` = 37.310mm
+   `d_ext_Medio` = 65.400mm
+}
+else if Metrica_Seleccionada == 42.00mm {
+   `Clearance Hole d1 (min)` = 45.000mm
+   `Clearance Hole d1 (max)` = 45.620mm
+   `Outside d2 (nom)` = 78.000mm
+   `d2 (min)` = 76.800mm
+   `Thickness h (nom)` = 8.000mm
+   `h (max)` = 9.000mm
+   `h (min)` = 7.000mm
+   `d_int_medio` = 45.310mm
+   `d_ext_Medio` = 77.400mm
+}
+else if Metrica_Seleccionada == 48.00mm {
+   `Clearance Hole d1 (min)` = 52.000mm
+   `Clearance Hole d1 (max)` = 52.740mm
+   `Outside d2 (nom)` = 92.000mm
+   `d2 (min)` = 90.600mm
+   `Thickness h (nom)` = 8.000mm
+   `h (max)` = 9.000mm
+   `h (min)` = 7.000mm
+   `d_int_medio` = 52.370mm
+   `d_ext_Medio` = 91.300mm
+}
+else if Metrica_Seleccionada == 56.00mm {
+   `Clearance Hole d1 (min)` = 62.000mm
+   `Clearance Hole d1 (max)` = 62.740mm
+   `Outside d2 (nom)` = 105.000mm
+   `d2 (min)` = 103.600mm
+   `Thickness h (nom)` = 10.000mm
+   `h (max)` = 11.000mm
+   `h (min)` = 9.000mm
+   `d_int_medio` = 62.370mm
+   `d_ext_Medio` = 104.300mm
+}
+else if Metrica_Seleccionada == 64.00mm {
+   `Clearance Hole d1 (min)` = 70.000mm
+   `Clearance Hole d1 (max)` = 70.740mm
+   `Outside d2 (nom)` = 115.000mm
+   `d2 (min)` = 113.600mm
+   `Thickness h (nom)` = 10.000mm
+   `h (max)` = 11.000mm
+   `h (min)` = 9.000mm
+   `d_int_medio` = 70.370mm
+   `d_ext_Medio` = 114.300mm
+}
+else if Metrica_Seleccionada == 3.50mm {
+   `Clearance Hole d1 (min)` = 3.700mm
+   `Clearance Hole d1 (max)` = 3.880mm
+   `Outside d2 (nom)` = 8.000mm
+   `d2 (min)` = 7.640mm
+   `Thickness h (nom)` = 0.500mm
+   `h (max)` = 0.550mm
+   `h (min)` = 0.450mm
+   `d_int_medio` = 3.790mm
+   `d_ext_Medio` = 7.820mm
+}
+else if Metrica_Seleccionada == 14.00mm {
+   `Clearance Hole d1 (min)` = 15.000mm
+   `Clearance Hole d1 (max)` = 15.270mm
+   `Outside d2 (nom)` = 28.000mm
+   `d2 (min)` = 27.480mm
+   `Thickness h (nom)` = 2.500mm
+   `h (max)` = 2.700mm
+   `h (min)` = 2.300mm
+   `d_int_medio` = 15.135mm
+   `d_ext_Medio` = 27.740mm
+}
+else if Metrica_Seleccionada == 18.00mm {
+   `Clearance Hole d1 (min)` = 19.000mm
+   `Clearance Hole d1 (max)` = 19.330mm
+   `Outside d2 (nom)` = 34.000mm
+   `d2 (min)` = 33.380mm
+   `Thickness h (nom)` = 3.000mm
+   `h (max)` = 3.300mm
+   `h (min)` = 2.700mm
+   `d_int_medio` = 19.165mm
+   `d_ext_Medio` = 33.690mm
+}
+else if Metrica_Seleccionada == 22.00mm {
+   `Clearance Hole d1 (min)` = 23.000mm
+   `Clearance Hole d1 (max)` = 23.330mm
+   `Outside d2 (nom)` = 39.000mm
+   `d2 (min)` = 38.380mm
+   `Thickness h (nom)` = 3.000mm
+   `h (max)` = 3.300mm
+   `h (min)` = 2.700mm
+   `d_int_medio` = 23.165mm
+   `d_ext_Medio` = 38.690mm
+}
+else if Metrica_Seleccionada == 27.00mm {
+   `Clearance Hole d1 (min)` = 28.000mm
+   `Clearance Hole d1 (max)` = 28.330mm
+   `Outside d2 (nom)` = 50.000mm
+   `d2 (min)` = 49.380mm
+   `Thickness h (nom)` = 4.000mm
+   `h (max)` = 4.300mm
+   `h (min)` = 3.700mm
+   `d_int_medio` = 28.165mm
+   `d_ext_Medio` = 49.690mm
+}
+else if Metrica_Seleccionada == 33.00mm {
+   `Clearance Hole d1 (min)` = 34.000mm
+   `Clearance Hole d1 (max)` = 34.620mm
+   `Outside d2 (nom)` = 60.000mm
+   `d2 (min)` = 58.800mm
+   `Thickness h (nom)` = 5.000mm
+   `h (max)` = 5.600mm
+   `h (min)` = 4.400mm
+   `d_int_medio` = 34.310mm
+   `d_ext_Medio` = 59.400mm
+}
+else if Metrica_Seleccionada == 39.00mm {
+   `Clearance Hole d1 (min)` = 42.000mm
+   `Clearance Hole d1 (max)` = 42.620mm
+   `Outside d2 (nom)` = 72.000mm
+   `d2 (min)` = 70.800mm
+   `Thickness h (nom)` = 6.000mm
+   `h (max)` = 6.600mm
+   `h (min)` = 5.400mm
+   `d_int_medio` = 42.310mm
+   `d_ext_Medio` = 71.400mm
+}
+else if Metrica_Seleccionada == 45.00mm {
+   `Clearance Hole d1 (min)` = 48.000mm
+   `Clearance Hole d1 (max)` = 48.620mm
+   `Outside d2 (nom)` = 85.000mm
+   `d2 (min)` = 83.600mm
+   `Thickness h (nom)` = 8.000mm
+   `h (max)` = 9.000mm
+   `h (min)` = 7.000mm
+   `d_int_medio` = 48.310mm
+   `d_ext_Medio` = 84.300mm
+}
+else if Metrica_Seleccionada == 52.00mm {
+   `Clearance Hole d1 (min)` = 56.000mm
+   `Clearance Hole d1 (max)` = 56.740mm
+   `Outside d2 (nom)` = 98.000mm
+   `d2 (min)` = 96.600mm
+   `Thickness h (nom)` = 8.000mm
+   `h (max)` = 9.000mm
+   `h (min)` = 7.000mm
+   `d_int_medio` = 56.370mm
+   `d_ext_Medio` = 97.300mm
+}
+else if Metrica_Seleccionada == 60.00mm {
+   `Clearance Hole d1 (min)` = 66.000mm
+   `Clearance Hole d1 (max)` = 66.740mm
+   `Outside d2 (nom)` = 110.000mm
+   `d2 (min)` = 108.600mm
+   `Thickness h (nom)` = 10.000mm
+   `h (max)` = 11.000mm
+   `h (min)` = 9.000mm
+   `d_int_medio` = 66.370mm
+   `d_ext_Medio` = 109.300mm
+}

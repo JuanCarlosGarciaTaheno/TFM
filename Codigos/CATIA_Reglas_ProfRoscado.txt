@@ -1,0 +1,121 @@
+Rule Empiece_Rosca_Rule
+if Paso == 0.20 {
+   e1_Normal = 1.300mm
+   e2_Short = 0.800mm
+   e3_Long = 2.000mm
+}
+else if Paso == 0.25 {
+   e1_Normal = 1.500mm
+   e2_Short = 1.000mm
+   e3_Long = 2.400mm
+}
+else if Paso == 0.30 {
+   e1_Normal = 1.800mm
+   e2_Short = 12.000mm
+   e3_Long = 2.900mm
+}
+else if Paso == 0.35 {
+   e1_Normal = 2.100mm
+   e2_Short = 1.300mm
+   e3_Long = 3.300mm
+}
+else if Paso == 0.40 {
+   e1_Normal = 2.300mm
+   e2_Short = 1.500mm
+   e3_Long = 3.700mm
+}
+else if Paso == 0.45 {
+   e1_Normal = 2.600mm
+   e2_Short = 1.600mm
+   e3_Long = 4.100mm
+}
+else if Paso == 0.50 {
+   e1_Normal = 2.800mm
+   e2_Short = 1.800mm
+   e3_Long = 4.500mm
+}
+else if Paso == 0.60 {
+   e1_Normal = 3.400mm
+   e2_Short = 2.100mm
+   e3_Long = 5.400mm
+}
+else if Paso == 0.70 {
+   e1_Normal = 3.800mm
+   e2_Short = 2.400mm
+   e3_Long = 6.100mm
+}
+else if Paso == 0.75 {
+   e1_Normal = 4.000mm
+   e2_Short = 2.500mm
+   e3_Long = 6.400mm
+}
+else if Paso == 0.80 {
+   e1_Normal = 4.200mm
+   e2_Short = 2.700mm
+   e3_Long = 6.800mm
+}
+else if Paso == 1.00 {
+   e1_Normal = 5.100mm
+   e2_Short = 3.200mm
+   e3_Long = 8.200mm
+}
+else if Paso == 1.25 {
+   e1_Normal = 6.200mm
+   e2_Short = 3.900mm
+   e3_Long = 10.000mm
+}
+else if Paso == 1.50 {
+   e1_Normal = 7.300mm
+   e2_Short = 4.600mm
+   e3_Long = 11.600mm
+}
+else if Paso == 1.75 {
+   e1_Normal = 8.300mm
+   e2_Short = 5.200mm
+   e3_Long = 13.300mm
+}
+else if Paso == 2.00 {
+   e1_Normal = 9.300mm
+   e2_Short = 5.800mm
+   e3_Long = 14.800mm
+}
+else if Paso == 2.50 {
+   e1_Normal = 11.200mm
+   e2_Short = 7.000mm
+   e3_Long = 17.900mm
+}
+else if Paso == 3.00 {
+   e1_Normal = 13.100mm
+   e2_Short = 82.000mm
+   e3_Long = 21.000mm
+}
+else if Paso == 3.50 {
+   e1_Normal = 15.200mm
+   e2_Short = 9.500mm
+   e3_Long = 24.300mm
+}
+else if Paso == 4.00 {
+   e1_Normal = 16.800mm
+   e2_Short = 10.500mm
+   e3_Long = 26.900mm
+}
+else if Paso == 4.50 {
+   e1_Normal = 18.400mm
+   e2_Short = 11.500mm
+   e3_Long = 29.400mm
+}
+else if Paso == 5.00 {
+   e1_Normal = 20.800mm
+   e2_Short = 13.000mm
+   e3_Long = 33.300mm
+}
+else if Paso == 5.50 {
+   e1_Normal = 22.400mm
+   e2_Short = 14.000mm
+   e3_Long = 35.800mm
+}
+else if Paso == 6.00 {
+   e1_Normal = 24.000mm
+   e2_Short = 15.000mm
+   e3_Long = 38.400mm
+}
