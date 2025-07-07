@@ -1,0 +1,203 @@
+$ Linear Static Analysis, Database
+SOL 101
+GEOMCHECK SUMMARY
+CEND
+$ _____________________________________________________ $
+$ Direct Text Input for Global Case Control Data
+AUTOSPC (NOPRINT) = YES
+LINES = 999999
+TITLE = THERMOELASTIC ANALYSIS - 293K to 50K
+ECHO = NONE
+   BCONTACT = 0
+   BCONCHK(PRINT)=RUN
+RIGID = LAGR
+$ _____________________________________________________ $
+SUBCASE 1
+   SUBTITLE=A10_x3_BCGRID_Termo220k
+$   NLSTEP = 1
+   BCONTACT = 1
+   SPC = 2
+$   LOAD = 2
+   TEMPERATURE(BOTH) = 2
+   DISPLACEMENT(PLOT,SORT1,REAL)=ALL 
+   SPCFORCES(PLOT,REAL)=ALL
+   STRESS(PLOT,SORT1,REAL,VONMISES,BILIN)=ALL
+   FORCE(PLOT,REAL,BILIN)=ALL
+   BOUTPUT(PLOT,REAL)=ALL
+$ Direct Text Input for this Subcase
+BEGIN BULK
+
+$PARAM    POST    0
+$PARAM    SNORM   0.
+
+PARAM   GRDPNT   0
+PARAM, LMFACT, 2.747110E+04
+PARAM, PENFN,  2.747110E+04
+
+
+$ Direct Text Input for Bulk Data
+HDF5OUT PRCISION 32     CMPRMTHD LZ4     LEVEL   5
+PARAM   PRTMAXIM YES
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$BCPARA   0       NLGLUE  1       FTYPE   6      METHOD  SEGTOSEG   
+$BCPARA   0       NLGLUE  0       FTYPE   6      METHOD  SEGTOSEG    
+
+$Nuevo para análissi de NODOS
+$BCPARA   0       NLGLUE  1       METHOD SEGSMALL BIAS    0.
+$         IBSEP   2       FTYPE   6
+
+BCPARA   0       NLGLUE  0       FTYPE   6
+
+$NLSTEP   1           
+
+$NLSTEP   1               LCPERF
+$         LCNT    4       P       1.e-4
+
+BCTABL1  1       8022    8021    8024    8028    8023    8013    8014
+
+BCONECT  8022    3031    4032    1       2
+BCONECT  8021    3029    4030    2       3
+BCONECT  8024    3035    4036    3       4
+BCONECT  8028    3038    4038    6       5
+BCONECT  8023    3033    4034    5       7
+
+
+BCONECT  8013    3013            6       1
+BCONECT  8014    3015            4       7
+
+
+
+BCONPRG  3031            ERROR   1.-6    ICOORD  1       ISEARCH 2
+BCONPRG  3029            ERROR   1.-6    ICOORD  1       ISEARCH 2
+BCONPRG  3035            ERROR   1.-6    ICOORD  1       ISEARCH 2
+BCONPRG  3038            ERROR   2.-5    ICOORD  0       ISEARCH 2 $rosca-helcoil
+BCONPRG  3033            ERROR   1.-6    ICOORD  1       ISEARCH 2 $pInf-helicoil
+
+
+BCONPRG  3013            ERROR   1.-6    ICOORD  1       IGLUE   2
+         ISEARCH 2
+BCONPRG  3015            ERROR   1.-6    ICOORD  1       IGLUE   2
+         ISEARCH 2
+
+
+BCONPRP  4032            FRIC    .16
+BCONPRP  4030            FRIC    .16
+BCONPRP  4036            FRIC    .16
+BCONPRP  4038            FRIC    .16
+BCONPRP  4034            FRIC    .16
+
+
+BCTABL1  0       8022    8021    8024    8028    8023    8013    8014
+
+
+
+$ Loads for Load Case : General
+SPCADD   2       1
+$ Con 1 g de gravedad + par apriete
+$LOAD     2       1.      1.      1       1.      3       1.      4
+$ Solo con el par de apriete
+$LOAD     2       1.      1.      1       1.      3     
+$ Solo Gravedad
+LOAD     2       0.      0.      4
+
+
+$ Default Initial Temperature
+$ TEMPD    1      0.
+$ LoadCase_Default Temperature
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+TEMPD    2       -73.0
+
+
+$ Displacement Constraints of Load Set : SPC_123456
+SPC1     1       123456  11
+$ Deform Body Contact LBC set: DEFORM.1 Tornillo
+BCBODY1  1               3D      DEFORM  1
+BCPROP   1       1
+
+$ Deform Body Contact LBC set: DEFORM.2 Arandela
+BCBODY1  2               3D      DEFORM  2
+BCPROP   2       2
+
+$ Deform Body Contact LBC set: DEFORM.3 PiezaSup
+BCBODY1  3               3D      DEFORM  3
+BCPROP   3       3 
+
+$ Deform Body Contact LBC set: DEFORM.12 rosca PiezaInf
+BCBODY1  4               3D      DEFORM  4
+BCPROP   4       4 
+
+$ Deform Body Contact LBC set: DEFORM.2 helicoil
+$BCBODY1  5               3D      DEFORM  5
+$BCPROP   5       5
+
+INCLUDE '../NodosHelicoil.txt'
+
+$ Deform Body Contact LBC set: DEFORM.3 roscatornillo
+BCBODY1  6               3D      DEFORM  6
+BCPROP   6       6
+
+$INCLUDE 'NodosRosca.txt'
+
+$ Deform Body Contact LBC set: DEFORM.5 roscaPInferior
+BCBODY1  7               3D      DEFORM  7
+BCPROP   7       7
+
+
+
+
+$ MODIFICAR EL NODO POR EL CENTRO DEL RBE3 DE LA CABEZA
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Nodal Forces of Load Set : Par_2p3Nm
+$FORCE    1      1422750  0       0.      .57735  .57735  .57735
+$ Nodal Forces of Load Set : Par_2p3Nm
+$MOMENT   3      1422750  0       2.3     0.      0.      -1.
+$ Gravity Loading of Load Set : 1g_Z
+$GRAV     4       0       9.81    0.      0.      -1.
+$GRAV     4       0       9.81    0.      0.       1.
+$FORCE    4       1422750  0       2387.    0.      0.      -1.
+$ Referenced Coordinate Frames
+CORD2R   1               0.      0.      0.      -1.     0.      0.
+         0.      0.      1.
+
+$ PARTES INVOLUCRADAS
+$INCLUDE '01_Tornillo.bdf'
+INCLUDE '../01_Tornillo_3x.bdf'
+$INCLUDE '01_Tornillo_1x.bdf'
+
+INCLUDE '../02_Arandela.bdf'
+
+INCLUDE '../06_Rosca_Tornillo_3x.bdf'
+$INCLUDE '06_Rosca_Tornillo_1x.bdf'
+$INCLUDE '06_Rosca_Tornillo.bdf'
+
+INCLUDE '../03_Pieza_Superior.bdf'
+
+INCLUDE '../04_Pieza_Inferior.bdf'
+
+INCLUDE '../07_RoscaPiezaInferior.bdf'
+
+INCLUDE '../05_Helicoil.bdf'
+
+
+
+$ Materiales y Propiedades
+INCLUDE '../materiales_propiedades.bdf'
+
+$ NODOS DE RESTRICCIONES
+$INCLUDE 'SPC.bdf'
+
+$ RBE
+$INCLUDE 'RBE2_Cabeza.bdf'
+INCLUDE '../RBE_PiezaInf_220K.bdf'
+$INCLUDE 'RBE2_PiezaInf.bdf'
+$INCLUDE 'RBE3.bdf'
+$INCLUDE 'RBE2_Arandela.bdf'
+
+
+INCLUDE '../Entrada_CBUSH.bdf'
+$INCLUDE 'materiales_propiedades.bdf'
+$INCLUDE 'partes_combinadas.bdf'
+
+
+
+ENDDATA
