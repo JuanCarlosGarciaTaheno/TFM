@@ -1,0 +1,108 @@
+File: C:\Users\jc.garcia-taheno\Desktop\CE_3_TahenoHijes\Macros\PiezasSeparadas\main.py 
+Output:
+Ejecutando 1_Importacion.py...
+Ejecutando 2_DivisionesGeometria.py...
+Eliminando 4 vertice(s) que no pertenecen a ningun plano...
+Eliminando 0 vertice(s) que no pertenecen a ningun plano...
+No se encontraron vertices a eliminar. Continuando con el siguiente codigo...
+Eliminando 4 vertice(s) que no pertenecen a ningun plano...
+ Corte realizado con exito. El solido fue dividido por el plano ZX (Y=0).
+Celda 1: Centroide Z = 2.820
+Celda 2: Centroide Z = 0.910
+Centroide Z segunda celda: 0.9100350210613634
+Ejecutando 3_MeshSeed.py...
+Semillando 16 radial(es) con 10 elementos
+Semillando 32 arco(s) con 6 elementos
+Semillando 16 vertical(es) con 3 elementos
+Semillando 16 radial(es) con 10 elementos
+Semillando 32 arco(s) con 6 elementos
+Semillando 16 vertical(es) con 3 elementos
+Semillando 16 radial(es) con 10 elementos
+Semillando 32 arco(s) con 6 elementos
+Semillando 16 vertical(es) con 3 elementos
+Semillando 16 radial(es) con 10 elementos
+Semillando 32 arco(s) con 6 elementos
+Semillando 16 vertical(es) con 3 elementos
+Semillando 2 radial(es) con 24 elementos
+Semillando 4 arco(s) con 6 elementos
+Semillando 2 vertical(es) con 3 elementos
+Semillando 16 radial(es) con 10 elementos
+Semillando 32 arco(s) con 6 elementos
+Semillando 16 vertical(es) con 0.2mm elementos
+Semillando 236 radial(es) con 3 elementos
+Semillando 468 arco(s) con 6 elementos
+Semillando 236 vertical(es) con 3 elementos
+Semillando 210 radial(es) con 3 elementos
+Semillando 410 arco(s) con 6 elementos
+Semillando 208 vertical(es) con 3 elementos
+Semillando 358 radial(es) con elementos de 0.1mm
+Semillando 516 arco(s) con 6 elementos
+Semillando 176 vertical(es) con 2 elementos
+Semillando 24 arco(s) con 6 elementos
+Semillando 16 vertical(es) con 50 elementos
+Semillando 4 vertical(es) con 50 elementos
+Semillando 6 arco(s) con 6 elementos
+Semillando 8 vertical(es) con 3 elementos
+Ejecutando 4_Mesh.py...
+
+Procesando solido: PartBody
+  -> Celdas encontradas: 8
+    Celda ID 1115 - Cara minima ID 1586 - Area: 1.379156
+    Celda ID 1301 - Cara minima ID 1587 - Area: 1.379156
+    Celda ID 1401 - Cara minima ID 1496 - Area: 1.379156
+    Celda ID 1402 - Cara minima ID 21199 - Area: 1.379156
+    Celda ID 1492 - Cara minima ID 1497 - Area: 1.379156
+    Celda ID 1491 - Cara minima ID 24010 - Area: 1.379156
+    Celda ID 1582 - Cara minima ID 1303 - Area: 1.379156
+    Celda ID 1581 - Cara minima ID 1409 - Area: 1.379156
+
+Procesando solido: PartBody
+  -> Celdas encontradas: 8
+    Celda ID 1105 - Cara minima ID 1576 - Area: 4.712379
+    Celda ID 1291 - Cara minima ID 1577 - Area: 4.712380
+    Celda ID 1391 - Cara minima ID 1486 - Area: 4.712379
+    Celda ID 1392 - Cara minima ID 21099 - Area: 4.712379
+    Celda ID 1482 - Cara minima ID 1487 - Area: 4.712380
+    Celda ID 1481 - Cara minima ID 23910 - Area: 4.712380
+    Celda ID 1572 - Cara minima ID 1293 - Area: 4.712379
+    Celda ID 1571 - Cara minima ID 1399 - Area: 4.712380
+
+Procesando solido: Original_PSuperior
+  -> Celdas encontradas: 8
+    Celda ID 95 - Cara minima ID 1566 - Area: 22.158348
+    Celda ID 1281 - Cara minima ID 1567 - Area: 22.158353
+    Celda ID 1381 - Cara minima ID 1476 - Area: 22.158348
+    Celda ID 1382 - Cara minima ID 999 - Area: 22.158348
+    Celda ID 1472 - Cara minima ID 1477 - Area: 22.158353
+    Celda ID 1471 - Cara minima ID 23810 - Area: 22.158353
+    Celda ID 1562 - Cara minima ID 1283 - Area: 22.158348
+    Celda ID 1561 - Cara minima ID 1389 - Area: 22.158353
+
+Procesando solido: P_InterMed
+  -> Celdas encontradas: 8
+    Celda ID 85 - Cara minima ID 1551 - Area: 6.192855
+    Celda ID 1271 - Cara minima ID 1557 - Area: 6.192854
+    Celda ID 1371 - Cara minima ID 1466 - Area: 6.192854
+    Celda ID 1372 - Cara minima ID 899 - Area: 6.192854
+    Celda ID 1462 - Cara minima ID 1467 - Area: 6.192854
+    Celda ID 1461 - Cara minima ID 23710 - Area: 6.192854
+    Celda ID 1551 - Cara minima ID 1271 - Area: 6.192855
+    Celda ID 1552 - Cara minima ID 1371 - Area: 6.192854
+
+Procesando solido: P_Inferior_Exterior
+  -> Celdas encontradas: 8
+    Celda ID 75 - Cara minima ID 1546 - Area: 7.863293
+    Celda ID 1261 - Cara minima ID 1547 - Area: 7.863291
+    Celda ID 1361 - Cara minima ID 1456 - Area: 7.863293
+    Celda ID 1362 - Cara minima ID 37131 - Area: 7.863293
+    Celda ID 1452 - Cara minima ID 1457 - Area: 7.863291
+    Celda ID 1451 - Cara minima ID 23610 - Area: 7.863291
+    Celda ID 1542 - Cara minima ID 1263 - Area: 7.863293
+    Celda ID 1541 - Cara minima ID 1369 - Area: 7.863291
+Ejecutando 5_RBE3_Cabeza.py...
+Celda mas alta: ID 55 con Z = 2.81995148657523
+Ejecutando 6_RBE3_PiezaInf.py...
+Ejecutando 7_Propiedades.py...
+Ejecutando 8_SD_SolidDeform.py...
+Ejecutando 9_Renumber.py...
+ Proceso completo.

@@ -1,0 +1,236 @@
+File: C:\Users\jc.garcia-taheno\Desktop\CE_3_TahenoHijes\Macros\UnionPiezas\0_MainUnion.py 
+Output:
+Ejecutando 1_Importacion.py...
+Ejecutando 2_UnionDivisionGeometria.py...
+Eliminando 0 vertice(s) que no pertenecen a ningun plano...
+No se encontraron vertices a eliminar. Continuando con el siguiente codigo...
+Eliminando 4 vertice(s) que no pertenecen a ningun plano...
+Eliminando 2 vertice(s) que no pertenecen a ningun plano...
+Division por plano ZX completada correctamente.
+Coordenadas Z unicas encontradas: [-22.8, -17.975, -14.175, -2.8000000000000003]
+
+Z intermedia 1: -17.975
+Z intermedia 2: -14.175
+Dividiendo en plano XY a z = -17.975...
+Dividiendo en plano XY a z = -14.175...
+Centroide celda: X=-0.000, Y=3.577, Z=-16.075
+Centroide celda: X=-0.000, Y=-3.643, Z=-8.488
+Centroide celda: X=0.000, Y=-3.395, Z=-20.387
+Centroide celda: X=-0.000, Y=3.395, Z=-20.387
+Centroide celda: X=0.000, Y=-3.577, Z=-16.075
+Centroide celda: X=0.000, Y=3.643, Z=-8.488
+Cara objetivo: area=24.771411764603638, centroide Z cercano a -16.0749971710379
+Split realizado correctamente.
+Centroide celda: X=-0.000, Y=3.577, Z=-16.075
+Centroide celda: X=-0.000, Y=-3.643, Z=-8.488
+Centroide celda: X=0.000, Y=-3.395, Z=-20.387
+Centroide celda: X=-0.000, Y=3.576, Z=-20.387
+Centroide celda: X=0.000, Y=-3.577, Z=-16.075
+Centroide celda: X=0.000, Y=3.643, Z=-8.488
+Cara objetivo derecha: area=24.77141176459715, centroide Z cercano a -16.07499719659921
+Split realizado correctamente en el lado derecho.
+
+Zonas detectadas:
+  Superior: 8 celdas
+  Media   : 8 celdas
+  Inferior: 16 celdas
+
+Zona inferior dividida:
+  Cercanas al origen: 8 celdas
+  Alejadas del origen: 8 celdas
+ Corte realizado entre el cuerpo y la cabeza.
+ Corte realizado en la cabeza.
+Celda 1: Centroide Z = 2.820
+Celda 2: Centroide Z = 0.910
+Celda 3: Centroide Z = -4.909
+Centroide Z segunda celda: 0.9100350210613634
+Centroide Z segunda celda: 0.910035
+Celda 2 descartada con Z=2.820 >= 0.910
+Celda 3 descartada con Z=0.910 >= 0.910
+Celda 4 descartada con Z=0.910 >= 0.910
+
+ Numero de celdas por debajo: 1
+ Corte 1 realizado correctamente. Nuevas celdas: 1
+ Corte 2 realizado correctamente. Nuevas celdas: 1
+ Corte 3 realizado correctamente. Nuevas celdas: 1
+ Corte 4 realizado correctamente. Nuevas celdas: 1
+Celda 1 descartada con Z=-4.909 <= 0.910
+Celda 5 descartada con Z=-4.909 <= 0.910
+Celda 6 descartada con Z=-4.909 <= 0.910
+Celda 9 descartada con Z=-4.909 <= 0.910
+Celda 12 descartada con Z=-4.909 <= 0.910
+Celda 14 descartada con Z=-4.909 <= 0.910
+Celda 17 descartada con Z=-4.909 <= 0.910
+Celda 21 descartada con Z=-4.909 <= 0.910
+
+ Numero de celdas por encima: 14
+ Celdas unidas correctamente en una unica celda.
+ Error al unir celdas: module 'glef.selection' has no attribute 'set'
+Celda 1 descartada con Z=-4.909 <= 0.000
+Celda 2 descartada con Z=-4.909 <= 0.000
+Celda 3 descartada con Z=-4.909 <= 0.000
+Celda 4 descartada con Z=-4.909 <= 0.000
+Celda 5 descartada con Z=-4.909 <= 0.000
+Celda 6 descartada con Z=-4.909 <= 0.000
+Celda 7 descartada con Z=-4.909 <= 0.000
+Celda 9 descartada con Z=-4.909 <= 0.000
+Centroides de las 2 celdas superiores:
+Celda 1: x = 0.000, y = 1.668, z = 2.820
+Celda 2: x = -0.000, y = -1.668, z = 2.820
+Celdas superiores unidas correctamente.
+Ejecutando 3_MeshSeed_UnionPiezas.py...
+Semillando 16 arco(s) inferiores con 6 elementos
+Semillando 8 vertical(es) superiores con 3 elementos
+Semillando 9 vertical(es) inferiores con 50 elementos
+Semillando 16 radial(es) inferiores con 5 elementos
+Centroides ordenados por Z (de mayor a menor):
+Celda 1: x = -2.135, y = 5.154, z = -8.487
+Celda 2: x = 2.135, y = -5.154, z = -8.487
+Celda 3: x = -5.154, y = -2.135, z = -8.487
+Celda 4: x = 5.154, y = 2.135, z = -8.487
+Celda 5: x = 5.154, y = -2.135, z = -8.487
+Celda 6: x = -5.154, y = 2.135, z = -8.487
+Celda 7: x = 2.135, y = 5.154, z = -8.487
+Celda 8: x = -2.135, y = -5.154, z = -8.487
+Celda 9: x = -2.135, y = 5.154, z = -16.075
+Celda 10: x = 2.135, y = 5.154, z = -16.075
+Celda 11: x = 2.135, y = -5.154, z = -16.075
+Celda 12: x = -2.135, y = -5.154, z = -16.075
+Celda 13: x = -5.154, y = -2.135, z = -16.075
+Celda 14: x = 5.154, y = 2.135, z = -16.075
+Celda 15: x = -5.154, y = 2.135, z = -16.075
+Celda 16: x = 5.154, y = -2.135, z = -16.075
+Celda 17: x = 0.852, y = -2.056, z = -16.075
+Celda 18: x = -0.852, y = 2.056, z = -16.075
+Celda 19: x = -2.056, y = -0.852, z = -16.075
+Celda 20: x = 2.056, y = 0.852, z = -16.075
+Celda 21: x = 2.056, y = -0.852, z = -16.075
+Celda 22: x = -2.056, y = 0.852, z = -16.075
+Celda 23: x = -0.852, y = -2.056, z = -16.075
+Celda 24: x = 0.852, y = 2.056, z = -16.075
+Celda 25: x = -1.245, y = -0.516, z = -20.387
+Celda 26: x = -1.245, y = 0.516, z = -20.387
+Celda 27: x = 1.245, y = 0.516, z = -20.387
+Celda 28: x = 1.245, y = -0.516, z = -20.387
+Celda 29: x = 0.516, y = -1.245, z = -20.387
+Celda 30: x = -0.516, y = -1.245, z = -20.387
+Celda 31: x = 0.516, y = 1.245, z = -20.387
+Celda 32: x = -0.516, y = 1.245, z = -20.387
+Celda 33: x = 2.056, y = -0.852, z = -20.387
+Celda 34: x = -2.056, y = 0.852, z = -20.387
+Celda 35: x = -2.056, y = -0.852, z = -20.387
+Celda 36: x = 2.056, y = 0.852, z = -20.387
+Celda 37: x = -0.852, y = 2.056, z = -20.387
+Celda 38: x = 0.852, y = 2.056, z = -20.387
+Celda 39: x = 0.852, y = -2.056, z = -20.387
+Celda 40: x = -0.852, y = -2.056, z = -20.387
+Celda 41: x = -2.135, y = 5.154, z = -20.388
+Celda 42: x = 2.135, y = -5.154, z = -20.388
+Celda 43: x = -5.154, y = -2.135, z = -20.388
+Celda 44: x = 5.154, y = 2.135, z = -20.388
+Celda 45: x = -5.154, y = 2.135, z = -20.388
+Celda 46: x = 5.154, y = -2.135, z = -20.388
+Celda 47: x = -2.135, y = -5.154, z = -20.388
+Celda 48: x = 2.135, y = 5.154, z = -20.388
+Semillando 28 arco(s) superiores con 6 elementos
+Semillando 60 arco(s) inferiores con 6 elementos
+Semillando 16 vertical(es) superiores con elementos de 0.2 mm
+Semillando 49 vertical(es) inferiores con 3 elementos
+Semillando 16 radial(es) superiores con 10 elementos
+Semillando 56 radial(es) inferiores con 10 elementos
+Semillando 16 radial(es) con 10 elementos
+Semillando 32 arco(s) con 6 elementos
+Semillando 16 vertical(es) con 3 elementos
+Semillando 16 radial(es) con 10 elementos
+Semillando 32 arco(s) con 6 elementos
+Semillando 16 vertical(es) con 3 elementos
+Semillando 236 radial(es) con 3 elementos
+Semillando 468 arco(s) con 6 elementos
+Semillando 236 vertical(es) con 3 elementos
+Semillando 210 radial(es) con 3 elementos
+Semillando 410 arco(s) con 6 elementos
+Semillando 208 vertical(es) con 3 elementos
+Semillando 358 radial(es) con elementos de 0.1 mm
+Semillando 516 arco(s) con 6 elementos
+Semillando 176 vertical(es) con 2 elementos
+Ejecutando 4_MeshUnion.py...
+
+Procesando solido: PartBody
+  -> Celdas encontradas: 8
+    Celda ID 1512 - Z = -0.400 - Angulo = 0.39 rad - Cara minima ID 1363 - Área: 1.379156
+    Celda ID 1361 - Z = -0.400 - Angulo = 1.18 rad - Cara minima ID 1517 - Área: 1.379156
+    Celda ID 1411 - Z = -0.400 - Angulo = 1.96 rad - Cara minima ID 1466 - Área: 1.379156
+    Celda ID 1461 - Z = -0.400 - Angulo = 2.75 rad - Cara minima ID 24110 - Área: 1.379156
+    Celda ID 1115 - Z = -0.400 - Angulo = 3.53 rad - Cara minima ID 1516 - Área: 1.379156
+    Celda ID 1511 - Z = -0.400 - Angulo = 4.32 rad - Cara minima ID 1419 - Área: 1.379156
+    Celda ID 1412 - Z = -0.400 - Angulo = 5.11 rad - Cara minima ID 21199 - Área: 1.379156
+    Celda ID 1462 - Z = -0.400 - Angulo = 5.89 rad - Cara minima ID 1467 - Área: 1.379156
+
+Procesando solido: PartBody
+  -> Celdas encontradas: 8
+    Celda ID 1502 - Z = -1.800 - Angulo = 0.39 rad - Cara minima ID 1353 - Área: 4.712379
+    Celda ID 1351 - Z = -1.800 - Angulo = 1.18 rad - Cara minima ID 1507 - Área: 4.712380
+    Celda ID 1401 - Z = -1.800 - Angulo = 1.96 rad - Cara minima ID 1456 - Área: 4.712379
+    Celda ID 1451 - Z = -1.800 - Angulo = 2.75 rad - Cara minima ID 24010 - Área: 4.712380
+    Celda ID 1105 - Z = -1.800 - Angulo = 3.53 rad - Cara minima ID 1506 - Área: 4.712379
+    Celda ID 1501 - Z = -1.800 - Angulo = 4.32 rad - Cara minima ID 1409 - Área: 4.712380
+    Celda ID 1402 - Z = -1.800 - Angulo = 5.11 rad - Cara minima ID 21099 - Área: 4.712379
+    Celda ID 1452 - Z = -1.800 - Angulo = 5.89 rad - Cara minima ID 1457 - Área: 4.712380
+
+Procesando solido: Original_PSuperior
+  -> Celdas encontradas: 48
+    Celda ID 1206 - Z = -8.487 - Angulo = 0.39 rad - Cara minima ID 22025 - Área: 22.158348
+    Celda ID 1152 - Z = -8.487 - Angulo = 1.18 rad - Cara minima ID 21829 - Área: 22.158353
+    Celda ID 1186 - Z = -8.487 - Angulo = 1.96 rad - Cara minima ID 999 - Área: 22.158348
+    Celda ID 1193 - Z = -8.487 - Angulo = 2.75 rad - Cara minima ID 21922 - Área: 22.158353
+    Celda ID 1184 - Z = -8.487 - Angulo = 3.53 rad - Cara minima ID 1132 - Área: 22.158348
+    Celda ID 1204 - Z = -8.487 - Angulo = 4.32 rad - Cara minima ID 22022 - Área: 22.158353
+    Celda ID 1196 - Z = -8.487 - Angulo = 5.11 rad - Cara minima ID 21925 - Área: 22.158348
+    Celda ID 1131 - Z = -8.487 - Angulo = 5.89 rad - Cara minima ID 21828 - Área: 22.158353
+    Celda ID 1218 - Z = -16.075 - Angulo = 0.39 rad - Cara minima ID 1218 - Área: 7.402366
+    Celda ID 1216 - Z = -16.075 - Angulo = 1.18 rad - Cara minima ID 1216 - Área: 7.402366
+    Celda ID 1214 - Z = -16.075 - Angulo = 1.96 rad - Cara minima ID 1214 - Área: 7.402366
+    Celda ID 1212 - Z = -16.075 - Angulo = 2.75 rad - Cara minima ID 1212 - Área: 7.402366
+    Celda ID 1211 - Z = -16.075 - Angulo = 3.53 rad - Cara minima ID 1211 - Área: 7.402366
+    Celda ID 1213 - Z = -16.075 - Angulo = 4.32 rad - Cara minima ID 1213 - Área: 7.402366
+    Celda ID 1215 - Z = -16.075 - Angulo = 5.11 rad - Cara minima ID 1215 - Área: 7.402366
+    Celda ID 1217 - Z = -16.075 - Angulo = 5.89 rad - Cara minima ID 1217 - Área: 7.402366
+    Celda ID 1202 - Z = -16.075 - Angulo = 0.39 rad - Cara minima ID 22024 - Área: 0.724801
+    Celda ID 95 - Z = -16.075 - Angulo = 1.18 rad - Cara minima ID 21827 - Área: 0.724551
+    Celda ID 1182 - Z = -16.075 - Angulo = 1.96 rad - Cara minima ID 38159 - Área: 0.724898
+    Celda ID 1191 - Z = -16.075 - Angulo = 2.75 rad - Cara minima ID 21923 - Área: 0.724611
+    Celda ID 1181 - Z = -16.075 - Angulo = 3.53 rad - Cara minima ID 1133 - Área: 0.724801
+    Celda ID 1201 - Z = -16.075 - Angulo = 4.32 rad - Cara minima ID 22023 - Área: 0.724552
+    Celda ID 1192 - Z = -16.075 - Angulo = 5.11 rad - Cara minima ID 21924 - Área: 0.724898
+    Celda ID 1151 - Z = -16.075 - Angulo = 5.89 rad - Cara minima ID 21826 - Área: 0.724611
+    Celda ID 1228 - Z = -20.387 - Angulo = 0.39 rad - Cara minima ID 1164 - Área: 0.724946
+    Celda ID 1208 - Z = -20.387 - Angulo = 0.39 rad - Cara minima ID 22032 - Área: 1.690815
+    Celda ID 1205 - Z = -20.388 - Angulo = 0.39 rad - Cara minima ID 22215 - Área: 9.399056
+    Celda ID 1161 - Z = -20.387 - Angulo = 1.18 rad - Cara minima ID 22034 - Área: 1.690815
+    Celda ID 1226 - Z = -20.387 - Angulo = 1.18 rad - Cara minima ID 22027 - Área: 0.724946
+    Celda ID 1142 - Z = -20.388 - Angulo = 1.18 rad - Cara minima ID 22211 - Área: 9.399056
+    Celda ID 1185 - Z = -20.388 - Angulo = 1.96 rad - Cara minima ID 1227 - Área: 9.399056
+    Celda ID 1224 - Z = -20.387 - Angulo = 1.96 rad - Cara minima ID 21920 - Área: 0.724946
+    Celda ID 1187 - Z = -20.387 - Angulo = 1.96 rad - Cara minima ID 21933 - Área: 1.690815
+    Celda ID 1194 - Z = -20.388 - Angulo = 2.75 rad - Cara minima ID 1223 - Área: 9.399056
+    Celda ID 1197 - Z = -20.387 - Angulo = 2.75 rad - Cara minima ID 21835 - Área: 1.690815
+    Celda ID 1222 - Z = -20.387 - Angulo = 2.75 rad - Cara minima ID 21823 - Área: 0.724946
+    Celda ID 1171 - Z = -20.387 - Angulo = 3.53 rad - Cara minima ID 22033 - Área: 1.690815
+    Celda ID 1221 - Z = -20.387 - Angulo = 3.53 rad - Cara minima ID 22021 - Área: 0.724946
+    Celda ID 1183 - Z = -20.388 - Angulo = 3.53 rad - Cara minima ID 1222 - Área: 9.399056
+    Celda ID 1207 - Z = -20.387 - Angulo = 4.32 rad - Cara minima ID 22031 - Área: 1.690815
+    Celda ID 1223 - Z = -20.387 - Angulo = 4.32 rad - Cara minima ID 1205 - Área: 0.724946
+    Celda ID 1203 - Z = -20.388 - Angulo = 4.32 rad - Cara minima ID 1226 - Área: 9.399056
+    Celda ID 1195 - Z = -20.388 - Angulo = 5.11 rad - Cara minima ID 22210 - Área: 9.399056
+    Celda ID 1225 - Z = -20.387 - Angulo = 5.11 rad - Cara minima ID 1172 - Área: 0.724946
+    Celda ID 1198 - Z = -20.387 - Angulo = 5.11 rad - Cara minima ID 21932 - Área: 1.690815
+    Celda ID 1141 - Z = -20.388 - Angulo = 5.89 rad - Cara minima ID 22214 - Área: 9.399056
+    Celda ID 1188 - Z = -20.387 - Angulo = 5.89 rad - Cara minima ID 21832 - Área: 1.690815
+    Celda ID 1227 - Z = -20.387 - Angulo = 5.89 rad - Cara minima ID 21926 - Área: 0.724946
+Ejecutando 5_RBE3_CABEZA_Union.py...
+Celda mas alta: ID 1301 con Z = 2.819951486575241
+Ejecutando 6_RBE3_PiezaInf_Union.py...
+Ejecutando 7_PropiedadesUnion.py...
+Ejecutando 8_SD_SolidDeformUnion.py...
+Ejecutando 9_Renumeracion.py...
+Proceso completo.
