@@ -1,0 +1,21 @@
+$# Session file 
+$# C:\Users\jc.garcia-taheno\Desktop\CE_3_TahenoHijes\ModelosApexFinales\Rotac
+$# ion_Ses.01 started recording at 16-Jul-25 13:05:57
+$# Build: 30.2.000613-77f54e2e Wed Dec 04 20:14:22 CUT 2024
+$# Recorded by: Patran 2024.2
+bv_groups_from_properties( "prop_" )
+$# Creating Groups from 21 Property Regions
+$# 8 Groups from Property Sets have been Created.
+ga_group_move_rotate( 2, ["prop_psolid.0001", "prop_psolid.0006"],  @
+"CoordinateFrame 0", "Coord 0.3", -2.8499999, 0., 25 )
+$# 1 CoordFrame is created in Group ["prop_psolid.0001","prop_psolid.0006"].
+$# 35598 Nodes in Group ["prop_psolid.0001","prop_psolid.0006"] are moved.
+$# 28736 Elements in Group ["prop_psolid.0001","prop_psolid.0006"] are moved.
+$# 2 ElementProperties are updated.
+$# Load/BC set "contactpair.8022.7" created from "contactpair.8022.1"
+$# Load/BC set "contactpair.8028.8" created from "contactpair.8028.1"
+$# 3 Load/BCs in Group ["prop_psolid.0001","prop_psolid.0006"] are moved.
+$# 2 Load/BCs are created in Group ["prop_psolid.0001","prop_psolid.0006"].
+$# Session file 
+$# C:\Users\jc.garcia-taheno\Desktop\CE_3_TahenoHijes\ModelosApexFinales\Rotac
+$# ion_Ses.01 stopped recording at 16-Jul-25 13:07:50
